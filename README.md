@@ -21,7 +21,7 @@ Four plots are created according to the assignment, shown below.
     * `plot4.R`
     
 ## Notes
-For better performance and in the theme of "don't repeat yourself", each `plotN.R` script calls a common file called `readData.R` if the dataset needs to be loaded. This allows the data load, which takes several seconds, to happen only once even when running multiple plot scripts.
+For better performance and in the theme of "don't repeat yourself", each `plotN.R` script calls a common file called `readData.R` only if the dataset needs to be loaded. This allows the data load, which takes several seconds, to happen only once even when running multiple plot scripts.
  
 ## Outputs    
 ### Plot 1
