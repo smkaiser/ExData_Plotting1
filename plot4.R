@@ -1,4 +1,7 @@
 # plot4.R
+# Exploratory Data Analysis
+# Steve Kaiser
+# Oct 10, 2014
 
 # Check for needed variable and read data if necessary
 if (!exists("plotData")) {
