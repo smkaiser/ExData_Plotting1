@@ -14,14 +14,14 @@ Four plots are created according to the assignment, shown below.
 
     <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
 
-1. `source` the following files. Each sourced file reads the dataset if necessary, and then creates a PNG graphic file containing the plot.
+1. `source` the following files. Each sourced file reads the dataset if necessary, and then creates a PNG graphic file containing the plot. The resulting PNG files are saved in your working directory.
     * `plot1.R`
     * `plot2.R`
     * `plot3.R`
     * `plot4.R`
     
 ## Notes
-For better performance and in the theme of "don't repeat yourself", each `plotN.R` script calls a common file called `readData.R` only if the dataset needs to be loaded. This allows the data load, which takes several seconds, to happen only once even when running multiple plot scripts.
+For better performance and in the theme of "don't repeat yourself", each `plotN.R` script calls a common file called `readData.R` _only_ if the dataset needs to be loaded. This allows the data load, which takes several seconds, to happen only once even when running multiple plot scripts.
  
 ## Outputs    
 ### Plot 1
